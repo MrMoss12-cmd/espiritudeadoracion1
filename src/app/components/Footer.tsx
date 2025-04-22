@@ -1,4 +1,5 @@
-import SocialLinks from './SocialLinks';
+// Remove this unused import
+// import SocialLinks from './SocialLinks';
 
 export default function Footer() {
   return (

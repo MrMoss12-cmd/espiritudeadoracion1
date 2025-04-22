@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from 'next/script';
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -26,9 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <head>
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-      </head>
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
@@ -37,6 +36,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <Script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" strategy="afterInteractive" />
       </body>
     </html>
   );

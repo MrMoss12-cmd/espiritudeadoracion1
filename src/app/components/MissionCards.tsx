@@ -45,7 +45,8 @@ export default function MissionCards() {
           variants={headerVariants} // Apply header variants (will inherit from section)
         >
           <p className="text-sm uppercase tracking-wider mb-2">SUB HEADLINE</p>
-          <h2 className="text-3xl font-bold">A CHURCH THAT'S RELEVANT</h2>
+          {/* Replace ' with &apos; */}
+          <h2 className="text-3xl font-bold">A CHURCH THAT&apos;S RELEVANT</h2>
         </motion.div>
 
         <motion.div // Animate the grid container
