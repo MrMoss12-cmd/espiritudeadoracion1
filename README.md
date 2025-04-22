@@ -1,26 +1,26 @@
-# Espíritu de Adoración Website
-
-This is the official website for the Espíritu de Adoración church, built with modern web technologies.
+# Espíritu & Adoración Website (espirituadoracionone)
 
 ## Description
 
-A dynamic and informative website designed to connect with the community, share sermons, announce events, and provide information about the church's mission and vision.
-
-## Tech Stack
-
-*   **Framework:** [Next.js](https://nextjs.org/) (App Router)
-*   **Language:** [TypeScript](https://www.typescriptlang.org/)
-*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-*   **Animations:** [Framer Motion](https://www.framer.com/motion/)
-*   **Deployment:** (e.g., [Vercel](https://vercel.com/))
+This project is the frontend website for Espíritu & Adoración, a church or religious organization. It showcases information about the organization, its mission, vision, beliefs, pastors, and locations. The site features a modern design with animations.
 
 ## Features
 
-*   Homepage showcasing key information and sections.
-*   Sections for Mission/Vision, Sermons, Events, and Contact.
-*   Responsive design for various screen sizes.
-*   Interactive animations for enhanced user experience.
-*   Newsletter subscription form.
+*   **Hero Section:** Engaging introductory section with animated background.
+*   **Mission & Vision:** Dedicated sections explaining the core values.
+*   **Statement of Faith:** Carousel displaying key doctrines.
+*   **Pastors:** Introduction to the church pastors.
+*   **Locations:** Information about different church locations and contact details.
+*   **Responsive Design:** Adapts to different screen sizes (desktop, tablet, mobile).
+*   **Animations:** Smooth transitions and effects using Framer Motion.
+
+## Tech Stack
+
+*   **Framework:** [Next.js](https://nextjs.org/) (React Framework)
+*   **Language:** [TypeScript](https://www.typescriptlang.org/)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Animations:** [Framer Motion](https://www.framer.com/motion/)
+*   **Icons:** [React Icons](https://react-icons.github.io/react-icons/)
 
 ## Getting Started
 
@@ -28,68 +28,68 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-*   Node.js (v18 or later recommended)
-*   npm, yarn, pnpm, or bun
+*   [Node.js](https://nodejs.org/) (Version 18.x or later recommended)
+*   [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
 ### Installation
 
-1.  **Clone the repository:**
+1.  **Clone the repository (if you haven't already):**
     ```bash
-    git clone https://github.com/MrMoss12-cmd/espiritudeadoracion1.git
+    git clone <your-repository-url>
+    cd espirituadoraciontwo
     ```
-    *(Replace with your actual repository URL if different)*
-2.  **Navigate to the project directory:**
-    ```bash
-    cd espirituadoracion
-    ```
-3.  **Install dependencies:**
-    Choose one of the following package managers:
+    *(Replace `<your-repository-url>` with the actual URL if cloning)*
+
+2.  **Install dependencies:**
+    Using npm:
     ```bash
     npm install
     ```
+    Or using yarn:
     ```bash
     yarn install
-    ```
-    ```bash
-    pnpm install
-    ```
-    ```bash
-    bun install
     ```
 
 ### Running the Development Server
 
-Run the following command:
+1.  **Start the server:**
+    Using npm:
+    ```bash
+    npm run dev
+    ```
+    Or using yarn:
+    ```bash
+    yarn dev
+    ```
+
+2.  Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Building for Production
+
+To create an optimized production build:
+
+Using npm:
+```bash
+npm run build
+ ```
+
+Or using yarn:
 
 ```bash
-yarn dev
-```
-or
+yarn build
+ ```
 
-```bash
-pnpm dev
-```
+This will create a .next folder with the production-ready application. You can then start the production server using npm start or yarn start .
 
-or
-```bash
-bun dev
-```
-
-Open http://localhost:3000 with your browser to see the result.
-
-You can start editing the main page by modifying src/app/page.tsx . The page auto-updates as you edit the file.
-
-## Deployment
-The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
-
-Check out the Next.js deployment documentation for more details.
+## Author
+- [Elias Higuera Acosta](https://www.linkedin.com/in/el%C3%ADas-higuera-acosta-/) - Profile work - My Linkeind Profile URL 
 
 ## Contributing
-Contributions are welcome! Please feel free to submit pull requests or open issues.
+Contributions are welcome! If you have suggestions for improving the website, please feel free to:
 
-(Optional: Add specific contribution guidelines if needed)
-
-## License
-(Optional: Specify the license for your project, e.g., MIT License)
-
-This provides a good starting point. You can customize the description, features, contribution guidelines, and license section further based on your specific project details.
+1. Fork the Project
+2. Create your Feature Branch ( git checkout -b feature/AmazingFeature )
+3. Commit your Changes ( git commit -m 'Add some AmazingFeature' )
+4. Push to the Branch ( git push origin feature/AmazingFeature )
+5. Open a Pull Request
+You can also open an issue with the tag "enhancement" or "bug".
